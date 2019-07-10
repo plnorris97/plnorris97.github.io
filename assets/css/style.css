@@ -109,7 +109,11 @@ h3 {
 }
 
 h4 {
-    font-style: sans-serif;
+    font-style: 'sans-serif', 'Times New Roman', Times;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
 }
 
 h5 {
@@ -200,6 +204,12 @@ h5 {
     text-align: center;
     padding: 20px;
 }
+
+#page-link {   
+    margin-left: 20px; 
+    padding: 10px;
+}
+
 
 /* 
 @media only screen and (max-width: 575.88px) {
