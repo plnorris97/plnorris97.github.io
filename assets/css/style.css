@@ -39,7 +39,9 @@ body {
     text-align: right;
     color: black;
 }
-
+.navbar-sub {
+    display: block;
+}
 .navbar-collapse {
     background-color: #343a40!important;
     color: white;
