@@ -35,7 +35,7 @@ body {
 }
 
 .navbar {
-    height: auto;
+    height: 100px;
     text-align: right;
     color: black;
 }
@@ -71,6 +71,7 @@ body {
     background-color: #343a40;
     border-color: #343a40;
     border-radius: 0px;
+    margin: 1%;
 }
 
 .btn:hover {
@@ -204,11 +205,20 @@ h5 {
     text-align: center;
     padding: 20px;
 }
-
+/* button {
+    background: darkgray;
+    color: white;
+}
+button:hover {
+    background: lightgray;
+    color: white;
+} */
+/* 
 #page-link {   
     margin-left: 20px; 
     padding: 10px;
-}
+    
+} */
 
 
 /* 
