@@ -1,11 +1,46 @@
+body {
+    background-color: lightgray;
+}
 section {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20%;
+    background-color: white;
+}
+p {
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 75%;
+    border: 0.5px solid darkgray;
+}
+#jumbobtn {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+.btn {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 jumbotron {
     width: 100%;
+}
+
+#top {
+    padding: 5%;
+}
+
+#middle {
+    padding: 5%;
+}
+
+#bottom {
+    text-align: center;
+    padding: 5%;
 }
 /* #visit {
 
