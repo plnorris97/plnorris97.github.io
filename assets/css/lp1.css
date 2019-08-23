@@ -1,10 +1,13 @@
 body {
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    font: san-serif;
+    height: auto;
 }
 section {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 4%;
+    margin-top: 4%;
     background-color: white;
 }
 p {
@@ -15,37 +18,84 @@ hr {
     width: 75%;
     border: 0.5px solid darkgray;
 }
-#jumbobtn {
-    display: block;
-    margin: auto;
-    width: 25%;
-}
+
 .btn {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 48%;
+    /* padding: 5%; */
 }
 
-jumbotron {
+.jumbotron {
     width: 100%;
+    background-color: gray;
+    /* background-image: #; */
+    
+}
+
+.jumbo-header {
+    margin: 2%;
+}
+
+.jumbo-text {
+    margin: 2%;
+}
+
+#jumbo-btn {
+    display: block;
+    width: 25%;
+    z-index: 2;
 }
 
 #top {
-    padding: 5%;
+    padding: 3%;
+}
+
+ul {
+    margin-bottom: 30px;
+    margin-left: -2%;
+}
+
+li {
+    margin-bottom: 2%;
 }
 
 #middle {
-    padding: 5%;
+    padding: 3%;
 }
 
 #bottom {
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 }
-/* #visit {
-
+#visit {
+    padding: 2%;
 }
-
 #partners {
+    padding: 2%;
+}
+.footer {
+    text-align: center;
+    position: relative;
+    height: 80px;
+    background-color: darkgray;
+    vertical-align: middle;
+}
+#top-footer {
+    display: block;
+    text-align: center;
+    position: relative;
+    height: 150px;
+    background-color: lightgray;
+}
 
-} */
+#bottom-footer {
+    display: block;
+    text-align: center;
+    position: relative;
+    height: 20px;
+    background-color: lightgray;
+}
+.footer-font {
+    font-size: 1rem;
+}
